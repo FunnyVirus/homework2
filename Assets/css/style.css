@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    display: block;
+    background-color: thistle;
+}
+
+.inner-header {
+    width: 1500px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20 px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.navigation a li:hover{
+    background-color: thistle;
+    color: black;
+}
+
+
+
+
+.about-me{
+    width: 100%;
+    display: block;
+    background-color: thistle;
+}
+
+.about-me p{
+    width: 1500px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}
+
+
+
+
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: flex;
+    background: rgb(124, 21, 219);
+    top: 300px;
+}
+
+.content-area h3{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+.boxes{
+    width: 1460px;
+    overflow: hidden;
+    background-color: lightblue;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
+
+.boxes ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.boxes ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 300px;
+    background: red;
+    margin: 40px 150px 0px 55px;
+}
+
+.boxes ul li title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: darkblue;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: thistle;
+}
+
+.inner-footer {
+    width: 1500px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}
+
+.logo-container1 {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container1 h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.contact-me {
+    float: right;
+    height: 100%;
+}
+
+.contact-me a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20 px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.contact-me a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.contact-me a li:hover{
+    background-color: thistle;
+    color: black;
+}
+
